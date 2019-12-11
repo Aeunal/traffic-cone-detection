@@ -55,7 +55,7 @@ for filename in os.listdir(path + '/input'):
             kernel[i,j] = 1
          else:
             kernel[i,j] = 0
-   print(kernel)
+   #print(kernel)
    imgDilated2 = cv2.dilate(imgThresh, kernel, iterations=1)
    #imgEroded = cv2.erode(imgEroded, kernel, iterations=1)
    #imgEroded = cv2.dilate(imgEroded, kernel, iterations=8)
